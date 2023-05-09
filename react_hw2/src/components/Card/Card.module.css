@@ -1,8 +1,17 @@
-.cardTitle{
-    display: flex;
-    
+.card {
+  display: flex;
+  width: 1272px;
+  justify-content: start;
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  margin: 50px 0;
+  padding-left: 20px;
+  border-left: 2px solid #72a479;
 }
 
 .cardTitle {
-    color: #fff;
+  display: flex;
+  color: #fff;
 }

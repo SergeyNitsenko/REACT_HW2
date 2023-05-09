@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
 import { Logo } from '../Logo/Logo'
-import { Basket } from '../Basket/Basket'
+import { Basket } from '../ButtonBasket/ButtonBasket'
 import location from '../../assets/images/location.svg'
 import search from '../../assets/images/search.svg'
 import { Contact } from '../Contact/Contact'

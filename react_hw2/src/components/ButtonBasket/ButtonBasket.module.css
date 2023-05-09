@@ -1,14 +1,15 @@
-.basket {
-  width: 1096px;
-  min-height: 126px;
-  background-color: #494544;
+.buttonBasket {
+  width: 150px;
+  height: 52px;
+  background-color: #72a479;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
-/* .basketTitle {
+.buttonBasketTitle {
   padding-right: 20px;
   height: 38px;
   border-right: 1px solid #fff;
@@ -31,4 +32,4 @@
   font-weight: 600;
   line-height: 14px;
   
-} */
+}

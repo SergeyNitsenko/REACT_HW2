@@ -8,13 +8,21 @@ export const Card = () => {
 
     const { url } = useParams();
 
-    const { title } = menu.find(card => card.url === url)
+    const { title } = menu.find(card => {
+        if (url === undefined) {
+            return card.url === 'cold_appetizers'
+        } return card.url === url
+    })
 
     return (
-        <div className={styles.card}>
-            <img src={lamb} alt='lamb'></img>
-            <h2 className={styles.cardTitle}>{title}</h2>
-        </div>
+        <>
+            <div className={styles.card}>
+                <h2 className={styles.cardTitle}>{title}</h2>
+            </div>
+            <div>
+                <img src={lamb} alt='lamb'></img>
+            </div>
+        </>
     )
 
 }

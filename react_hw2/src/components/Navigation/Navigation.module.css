@@ -1,9 +1,11 @@
 .navigation{
-    width: 1272px;
+    max-width: 1272px;
+    width: 100%;
     height: 78px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 }
 
 .navigationLink {

@@ -1,4 +1,29 @@
 .basket {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  padding-left: 330px;
+  min-height: 74px;
+  justify-content: space-between;
+  margin-bottom: 75px;
+}
+
+.basketReturn {
+  text-decoration: none;
+  color: #fff;
+}
+
+.basketCategory {
+  font-family: Gilroy;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  color: #fff;
+  border-left: 2px solid #618967;
+  padding-left: 19px;
+}
+
+.basketContent {
   width: 1096px;
   min-height: 126px;
   background-color: #494544;
@@ -7,28 +32,3 @@
   justify-content: center;
   align-items: center;
 }
-
-/* .basketTitle {
-  padding-right: 20px;
-  height: 38px;
-  border-right: 1px solid #fff;
-  display: flex;
-  color: #fff;
-  align-items: center;
-}
-
-.basketNumber {
-  margin-left: 20px;
-  width: 24px;
-  height: 24px;
-  background-color: #fff;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Gilroy sans-serif;
-  font-size: 12px;
-  font-weight: 600;
-  line-height: 14px;
-  
-} */

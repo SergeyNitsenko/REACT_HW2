@@ -1,9 +1,15 @@
 import styles from './Basket.module.css'
+import { Link } from 'react-router-dom'
 
 export const Basket = () => {
-    return (
+    return (<>
         <div className={styles.basket}>
-           Basket
+            <Link to='/' className={styles.basketReturn}> &lt;	к выбору блюда</Link>
+            <span className={styles.basketCategory}>КОРЗИНА</span>
+        </div >
+        <div className={styles.basketContent}>
+            Basket
         </div>
+    </>
     )
 }

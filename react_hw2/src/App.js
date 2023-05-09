@@ -9,20 +9,24 @@ import { Basket } from './components/Basket/Basket';
 
 
 function App() {
-  const {state} = useLocation();
+  const { state } = useLocation();
   return (
     <div className='container'>
       <Header />
-      {!state && <Banner />}
-      <Navigation />
+      {
+        !state && <>
+          <Banner />
+          <Navigation />
+        </>
+      }
       <Routes>
-        <Route path='/' element = {<Card/>}/>
-        <Route path='/:url' element = {<Card/>}/>
-        <Route path='/Basket' element = {<Basket/>}/>
+        <Route path='/' element={<Card />} />
+        <Route path='/:url' element={<Card />} />
+        <Route path='/Basket' element={<Basket />} />
       </Routes>
-    
+
     </div>
-    
+
   );
 }
 

@@ -22,11 +22,10 @@
   font-weight: 400;
   line-height: 73px;
   text-align: center;
-  text-shadow: -5px 5px #403c3b, -5px 5px;
+  text-shadow: -5px 5px  #403c3b, -5px 5px;
 }
 
 .bannerSpan {
-  transform: rotate(-8.37deg);
   color: #ffffff;
   font-family: Zing Rust Demo sans-serif;
   font-size: 25px;
@@ -37,6 +36,6 @@
   left: 319px;
   top: 120px;
   width: 250px;
-  background: linear-gradient(114.93deg, #618967 5.11%, #72A479 94%);
-  
+  background:  #72A479;
+  transform: rotate(-8.37deg);
 }

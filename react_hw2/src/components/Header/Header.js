@@ -16,7 +16,7 @@ export const Header = () => {
                     <img className={styles.imgSearch} src={search} alt='location'></img>
                 </div>
                 <Contact/>
-                <Basket />
+                <Basket/>
             </div>
 
         </div>

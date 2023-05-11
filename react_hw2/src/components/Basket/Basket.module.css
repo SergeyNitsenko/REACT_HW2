@@ -23,6 +23,15 @@
   padding-left: 19px;
 }
 
+.basketNumber {
+  color: #72a479;
+  font-family: Gilroy;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  padding-left: 15px;
+}
+
 .basketContent {
   width: 1096px;
   min-height: 126px;

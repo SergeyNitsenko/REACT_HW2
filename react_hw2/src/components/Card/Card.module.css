@@ -1,4 +1,4 @@
-.card {
+.cardCategory {
   display: flex;
   width: 1272px;
   justify-content: start;
@@ -13,5 +13,94 @@
 
 .cardTitle {
   display: flex;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1364px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.cardImg {
+  width: 329px;
+  height: 385px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  background-color: #504b4a;
+  overflow: hidden;
+}
+
+.cardContent {
+  width: 289px;
+  height: 125px;
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.titleWeight{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.titleCard {
+  font-family: Gilroy;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 27px;
+  color: #fff;
+}
+
+.cardWeight {
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #fff;
+}
+
+.cardText {
+  color: #cfcfcf;
+  font-family: Gilroy;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.priceBasket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardButton {
+  height: 44px;
+  width: 137px;
+  border-radius: 10px;
+  background-color: #72a479;
+  color: #fff;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 0;
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  cursor: pointer;
+}
+
+.cardPrice {
+  font-family: Gilroy;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
   color: #fff;
 }

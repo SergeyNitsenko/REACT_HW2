@@ -14,7 +14,8 @@ function App() {
     <div className='container'>
       <Header />
       {
-        !state && <>
+        !state && 
+        <>
           <Banner />
           <Navigation />
         </>

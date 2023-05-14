@@ -1,3 +1,10 @@
+.line{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #FFFFFF1A;
+}
+
 .navigation{
     max-width: 1272px;
     width: 100%;
@@ -6,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
+    margin: 0 auto;
 }
 
 .navigationLink {

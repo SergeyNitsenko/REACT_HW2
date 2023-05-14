@@ -5,10 +5,13 @@ export const Basket = () => {
     return (<>
         <div className={styles.basket}>
             <Link to='/' className={styles.basketReturn}> &lt;	к выбору блюда</Link>
+
             <span className={styles.basketCategory}>КОРЗИНА<span className={styles.basketNumber}> (в корзине 3 товара)</span></span>
         </div >
-        <div className={styles.basketContent}>
-            Basket
+        <div className={styles.basketContainer}>
+            <div className={styles.basketContent}>
+                Basket
+            </div>
         </div>
     </>
     )

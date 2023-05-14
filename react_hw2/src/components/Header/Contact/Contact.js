@@ -1,5 +1,5 @@
 import styles from './Contact.module.css'
-import phone from '../../assets/images/phone.svg'
+import phone from '../../../assets/images/phone.svg'
 
 export const Contact = () => {
     return (

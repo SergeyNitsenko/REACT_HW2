@@ -1,9 +1,9 @@
 import styles from './Header.module.css'
-import { Logo } from '../Logo/Logo'
-import { Basket } from '../ButtonBasket/ButtonBasket'
+import { Logo } from '../../components/Header/Logo/Logo.js'
+import { Basket } from './ButtonBasket/ButtonBasket'
 import location from '../../assets/images/location.svg'
 import search from '../../assets/images/search.svg'
-import { Contact } from '../Contact/Contact'
+import { Contact } from '../../components/Header/Contact/Contact.js'
 
 export const Header = () => {
     return (

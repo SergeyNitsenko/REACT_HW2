@@ -40,4 +40,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+.basketContainer{
+  flex-grow: 1;
 }

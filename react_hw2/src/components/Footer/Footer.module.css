@@ -1,0 +1,66 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  min-height: 195px;
+  background-color: #211f20;
+  flex-shrink: 0;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.buttonReturn {
+  height: 64px;
+  width: 64px;
+  left: 38px;
+  background-color: #fff;
+  border-radius: 32px;
+  margin: 0 55px 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.infoFooter {
+  display: flex;
+  flex-direction: column;
+  height: 139px;
+  width: 208px;
+  justify-content: space-between;
+}
+
+.rights {
+  font-family: Gilroy;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #cfcfcf;
+}
+
+.infoLink {
+  font-family: Gilroy;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.footerLinks{
+  display: flex;
+  flex-direction: row;
+  width: 621px;
+  justify-content: space-between;
+  margin-left: 86px;
+}
+
+.footerLink{
+  font-family: Gilroy;
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+color: #fff;
+text-decoration: none;
+}

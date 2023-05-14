@@ -1,10 +1,12 @@
 import './App.css'
-import { Navigation } from './components/Navigation/Navigation.js';
-import { Banner } from './components/Banner/Banner.js';
-import { Header } from './components/Header/Header.js';
+import { Navigation } from '../Header/Navigation/Navigation.js';
+import { Banner } from '../Header/Banner/Banner.js';
+import { Header } from '../Header/Header.js';
 import { Routes, Route, Link, useLocation } from 'react-router-dom';
-import { Card } from './components/Card/Card';
-import { Basket } from './components/Basket/Basket';
+import { Card } from '../Main/Card/Card';
+import { Basket } from '../Header/Basket/Basket.js';
+import { Footer } from '../Footer/Footer';
+import { AddBasket } from '../Main/Card/AddBasket/AddBasket';
 
 
 
@@ -14,19 +16,21 @@ function App() {
     <div className='container'>
       <Header />
       {
-        !state && 
+        !state &&
         <>
           <Banner />
           <Navigation />
         </>
       }
+
       <Routes>
         <Route path='/' element={<Card />} />
         <Route path='/:url' element={<Card />} />
         <Route path='/Basket' element={<Basket />} />
+        <Route path='/AddBasket' element={<AddBasket />} />
       </Routes>
-
-    </div>
+      <Footer />
+    </div >
 
   );
 }

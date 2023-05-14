@@ -21,7 +21,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -31,7 +31,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -41,7 +41,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -69,7 +69,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -79,7 +79,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -89,7 +89,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -116,7 +116,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -126,7 +126,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -136,7 +136,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -163,7 +163,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -173,7 +173,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -183,7 +183,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -210,7 +210,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -220,7 +220,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -230,7 +230,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -257,7 +257,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -267,7 +267,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -277,7 +277,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -304,7 +304,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -314,7 +314,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -324,7 +324,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',
@@ -351,7 +351,7 @@ export const menu = [
                     alt: 'lamb'
                 }
             },{
-                id: 1,
+                id: 2,
                 title: 'Индейка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный гречневой кашей, курагой, апельсином и зеленым яблоком',
@@ -361,7 +361,7 @@ export const menu = [
                     alt: 'turkey'
                 }
             },{
-                id: 1,
+                id: 3,
                 title: 'Гусь',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированный яблоками',
@@ -371,7 +371,7 @@ export const menu = [
                     alt: 'goose'
                 }
             },{
-                id: 1,
+                id: 4,
                 title: 'Утка',
                 weight: 'Вес: 225 г',
                 description: 'Фаршированная рисом, курагой и айвой',

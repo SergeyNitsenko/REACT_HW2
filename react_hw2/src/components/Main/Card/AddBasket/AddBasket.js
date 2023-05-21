@@ -33,7 +33,7 @@ export const AddBasket = ({ cardPrice }) => {
     if (!isShowState) {
         return (
             <>
-                <span className={styles.cardPrice}>{cardPrice} &#8381;</span>
+                <span className={styles.cardPrice}>{price} &#8381;</span>
                 <button className={styles.cardButton} onClick={click}>
                     В корзину
                     <img src={basket} alt="basket"></img>
@@ -47,7 +47,7 @@ export const AddBasket = ({ cardPrice }) => {
             <button className={styles.delete} onClick={stateDel}>
                 -
             </button>
-            <span className={styles.addBasketPrice} >{cardPrice} &#8381;</span>
+            <span className={styles.addBasketPrice} >{price} &#8381;</span>
             <button className={styles.add} onClick={stateAdd}>
                 +
             </button>

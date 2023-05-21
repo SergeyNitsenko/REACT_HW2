@@ -1,8 +1,6 @@
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import styles from './Card.module.css'
 import { menu } from "../../../data/menu.js";
-import basket from '../../../assets/images/basket.svg'
-import { useState } from "react";
 import { AddBasket } from "./AddBasket/AddBasket";
 
 
@@ -16,8 +14,6 @@ export const Card = () => {
         } return card.url === url
     })
 
-    const [state, setState] = useState(0)
-
 
 
     return (
@@ -29,7 +25,6 @@ export const Card = () => {
                 {
                     products.map(card =>
                         <div key={card.id} className={styles.cardImg}>
-                            <div className={styles.number}>{state}</div>
                             <img className={styles.img} src={card.image.src} alt={card.image.alt}></img>
                             <div className={styles.cardContent}>
                                 <div className={styles.titleWeight}>
@@ -38,9 +33,8 @@ export const Card = () => {
                                 </div>
                                 <span className={styles.cardText}>{card.description}</span>
                                 <div className={styles.priceBasket}>
-                                    <span className={styles.cardPrice}>{card.price}	&#8381;</span>
-                                    <Link to='/AddBasket' className={styles.cardButton}>В корзину<img src={basket} alt="basket"></img></Link>
-                                </div>
+                                    <AddBasket cardPrice = {card.price}/>
+                                </div> 
                             </div>
 
                         </div>)
